@@ -74,3 +74,17 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: opacity 0.3s ease-in-out, background 0.3s;
 }
+.service-item {
+    margin: 20px 0;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.service-item i {
+    font-size: 50px;
+
+    margin-right: 20px;
+    color: #4D94E6;
+}
