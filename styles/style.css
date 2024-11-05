@@ -36,7 +36,7 @@ nav ul li a {
     color: #4D94E6;
     font-weight: bold;
     padding: 10px 15px;
-    
+
     border-radius: 5px;
     transition: background 0.3s, color 0.3s;
 }
@@ -44,4 +44,11 @@ nav ul li a {
 nav ul li a:hover {
     background: #35BBDF;
     color: white;
+}
+
+.hero {
+    background: linear-gradient(45deg, #21DADB, #35BBDF);
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
 }
