@@ -33,5 +33,9 @@ sections.forEach(section => {
     observer.observe(section);
     section.classList.add('section-visible'); // Initialize as visible
 });
-
+document.getElementById('contact-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Message sent successfully!');
+    document.getElementById('contact-form').reset();
+});
 });
